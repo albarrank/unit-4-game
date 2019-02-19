@@ -1,0 +1,71 @@
+body {
+    background: url("../images/mirror2.jpg");
+}
+#heading {
+    background: orange;
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+#description {
+    background: teal;
+    color: white;
+    width: 100%;
+    max-width: 600px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+#numbercontainer {
+    background: maroon;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 15px;
+}
+#tracker {
+    background: rgb(100, 15, 19);
+    color: white;
+    height: 20vh;
+    width: 100%;
+    max-width: 100px;
+    margin-left: 10px;
+}
+#wins {
+    margin-top: 20px;
+    color: white;
+}
+#losses {
+    margin-top: 20px;
+    color: white;
+}
+.jewel {
+    border: 2px solid blue;
+    width: 100%;
+    max-width: 100px;
+    margin-top: 10px;
+}
+.first {
+
+}
+.last {
+
+}
+#totalScore {   
+    background: rebeccapurple;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+}
+#scoreFromJewels {
+    background: rgb(9, 31, 66);
+    color: white;
+    height: 20vh;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
