@@ -15,6 +15,7 @@ body {
     max-width: 600px;
     padding: 10px 0;
     margin-bottom: 10px;
+    font-size: 15px;
 }
 #numbercontainer {
     background: black;
@@ -55,12 +56,6 @@ body {
 img.size {
     width: 100px;
     height: 100px;
-}
-.first {
-
-}
-.last {
-
 }
 #totalScore {
 

@@ -88,15 +88,17 @@ $(document).ready(function() {
     
     function check() {
         if (gemTotal === numberToMatch) {
-            alert("CONGRATS YOU WON! YOU MATH WIZARD YOU!");
+            alert("CONGRATS YOU WON! YOU MATH WIZARD YOU! YOUR NUMBER WAS " + gemTotal);
             wins++;
             $("#wins").html("WINS = " + wins);
+            $("#scoreFromJewels").html("0");
             restart();
         }
         if (gemTotal > numberToMatch) {
-            alert("AWWW MAN BETTER ADDING NEXT TIME!");
+            alert("AWWW MAN YOU'RE NOT A MATH WIZARD! YOU WERE OFF BY " + (gemTotal - numberToMatch));
             losses++;
             $("#losses").html("LOSSES = " + losses);
+            $("#scoreFromJewels").html("0");
             restart();
         }
     }
